@@ -3,7 +3,7 @@ import { FacebookOutlined, InstagramOutlined } from '@ant-design/icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0068ff] text-[#000000] py-4 border-b border-[#EDEDED]"> 
+    <footer className="bg-[#6D28D2] text-[#000000] py-4 border-b border-[#EDEDED]"> 
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
 

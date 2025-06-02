@@ -67,7 +67,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto hidden md:flex justify-between items-center gap-6 h-full px-4">
         <div className="flex items-center gap-4">
           <Link to="/">
-            <h1 className="font-bold text-2xl text-[#0068ff]">E-Course</h1>
+            <h1 className="font-bold text-2xl text-[#6D28D2]">E-Course</h1>
           </Link>
 
           <form
@@ -83,7 +83,7 @@ const Navbar = () => {
             />
             <Button
               type="submit"
-              className="bg-blue-600 text-white px-4 py-2 hover:bg-blue-700 rounded-none rounded-r-full"
+              className="bg-[#6D28D2] text-white px-4 py-2 hover:bg-[#6D28D9]-700 rounded-none rounded-r-full"
             >
               <SearchOutlined />
             </Button>
@@ -91,7 +91,7 @@ const Navbar = () => {
 
           <Button
             onClick={() => navigate(`/course/search?query`)}
-            className="bg-white text-blue-600 hover:bg-gray-200 rounded-full px-4 py-2"
+            className="bg-white text-[#2A2B3F]-600 dark:text-[#2A2B3F] hover:bg-gray-200 rounded-full px-4 py-2"
           >
             Explore Courses
           </Button>
@@ -136,7 +136,7 @@ const Navbar = () => {
           ) : (
             <Button
               variant="outline"
-              className="bg-[#0068ff] hover:bg-blue-700"
+              className="bg-[#6D28D2] hover:bg-blue-700"
               onClick={() => navigate("/login")}
             >
               Login | Signup
@@ -149,7 +149,7 @@ const Navbar = () => {
       {/* Mobile */}
       <div className="flex md:hidden items-center justify-between px-4 h-full">
         <Link to="/">
-          <h1 className="font-bold text-2xl text-[#0068ff]">E-Course</h1>
+          <h1 className="font-bold text-2xl text-[#6D28D2]">E-Course</h1>
         </Link>
         <MobileNavbar
           user={user}

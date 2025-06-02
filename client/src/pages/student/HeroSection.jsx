@@ -16,7 +16,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative bg-[#0068ff] py-24 px-4 text-center">
+    <div className="relative bg-[#6D28D2] py-24 px-4 text-center">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-white text-4xl font-bold mb-4">
           Find the Best Courses for You

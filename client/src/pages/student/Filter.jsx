@@ -58,13 +58,13 @@ const Filter = ({ handleFilterChange }) => {
       </div> */}
       <Separator className="my-4" />
       <div>
-        <center><h1 className="font-semibold mb-2 text-[#0068ff]">CATEGORY</h1></center>
+        <center><h1 className="font-semibold mb-2 text-[#6D28D2]">CATEGORY</h1></center>
         {categories.map((category) => (
           <div key={category.id} className="flex items-center space-x-2 my-2">
             <Checkbox
               id={category.id}
               onCheckedChange={() => handleCategoryChange(category.id)}
-              // style={{ backgroundColor: "#0068ff" }}
+              // style={{ backgroundColor: "#6D28D2" }}
             />
             <Label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
               {category.label}

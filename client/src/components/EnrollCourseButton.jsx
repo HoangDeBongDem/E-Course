@@ -65,7 +65,7 @@ const EnrollCourseButton = ({ courseId }) => {
       disabled={isLoading || isStatusLoading || isFetching} // Disable during fetching
       onClick={isEnrolled ? handleContinueCourse : enrollCourseHandler}
       className="w-full"
-      style={{ backgroundColor: "#0068ff" }}
+      style={{ backgroundColor: "#6D28D2" }}
     >
       {isLoading || isFetching ? (
         <>
