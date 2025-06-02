@@ -11,8 +11,8 @@ const Courses = () => {
 
   return (
     <div className="bg-gray-50 dark:bg-[#141414]">
-      <div className="overflow-hidden bg-[#6D28D2] dark:bg-[#6D28D2] text-black dark:text-white-200 py-2">
-        <div className="animate-marquee font-medium text-sm px-4">
+      <div className="overflow-hidden bg-[#6D28D2] dark:bg-[#6D28D2] text-white dark:text-white-200 py-2">
+        <div className="animate-marquee font-medium text-sm- px-4">
           🔥 New Courses Available! &nbsp; 🚀 Learn Anytime, Anywhere! &nbsp; 🎯 Updated Weekly! &nbsp;
         </div>
       </div>
